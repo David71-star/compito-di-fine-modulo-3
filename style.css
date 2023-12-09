@@ -1,0 +1,187 @@
+.bg-dark{
+    background-color: rgb(19, 19, 19)!important;
+}
+/* ICONE */
+.generi ion-icon{
+    font-size: x-small;
+}
+nav ion-icon:nth-of-type(2):hover{
+    color: red;
+    cursor: pointer;
+    animation-duration: 1s;
+    animation-name: drin;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+@keyframes drin{
+    0%{rotate: 0deg;}
+    25%{rotate: 45deg;}
+    50%{rotate: -45deg;}
+    100%{rotate: 0deg;}
+}
+/* IMMAGINI */
+.logo{
+    width: 110px;
+    height: 50px;
+}
+.avatar{
+    aspect-ratio: 1/1;
+    width: 30px;
+}
+.login{
+    font-size: 12.5px;
+}
+.login p:hover{
+    color: red;
+    cursor: pointer;
+}
+/* NAVBAR */
+nav .container-fluid ul li a{
+    font-size: 14px;
+}
+nav .container-fluid ul li a:hover{
+    font-weight: bold;
+    color: white;
+    transition: 0.1s;
+}
+nav .container-fluid button{
+    border: red solid 2px;
+}
+nav .navbar-toggler-icon svg .stroke{
+    color: red!important;
+}
+/* NAV DOWN */
+
+.generi{
+    width: 100px;
+    height: 35px;
+}
+/* CAROSELLO */
+
+
+/* .selezionato{
+    translate: -1400px;
+    transition-duration: 0.75s;
+}
+.slide{
+    transition-duration: 0.75s;
+} */
+
+
+#one h3, #two h3, #three h3{
+    color: rgb(218, 218, 218);
+}
+.carousel-control-next{
+    right: -3%;
+    width: 32px;
+}
+.carousel-control-prev{
+    left: -3%;
+    width: 32px;
+}
+.carousel .card_body{
+    width: calc(100% - 2px);
+}
+.carousel img{
+    width: 100%;
+}
+.carousel .card_body:hover{
+    transform: scale(115%, 115%);
+    transition: 0.3s;
+    transition-delay: 0.3s;
+    cursor: pointer;
+    box-shadow: -1px -1px 1.5px rgba(255, 255, 255);
+    z-index: 2;
+}
+.carousel .card_body:hover .filmCard{
+    height: 106px;
+    padding-block: 8px;
+    transition: 0.3s;
+    transition-delay: 0.3s;
+    box-shadow: 1px 1px 1.5px rgba(255, 255, 255);
+    opacity: 1;
+}
+.filmCard{
+    width: 100%;
+    background-color: black;
+    height: 0px;
+    padding-inline: 8px;
+    transform: translateY(100%);
+    z-index: -1;
+    opacity: 0;
+}
+.filmCard p{
+    font-size: small;
+}
+.barra{
+    width: 50%;
+    height: 3px; 
+    background-color: white;
+    border-radius: 10px;
+}
+.contenutoBarra{
+    width: 30%;
+    height: 3px;
+    background-color: red;
+    border-radius: 10px;
+}
+/* FOOTER */
+footer{
+    margin-top: 10%;
+}
+footer .icone{
+    font-size: larger;
+}
+footer .informazioni{
+    display: flex;
+    gap: 12%;
+}
+footer p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+footer .informazioni p{
+    margin-bottom: 0%;
+    padding-bottom: 7.5%;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.445);
+    width: max-content;
+}
+footer .informazioni p:hover{
+    color: white;
+}
+footer ion-icon{
+    color: rgba(255, 255, 255, 0.445);
+}
+footer ion-icon:hover{
+    color: white;
+    cursor: pointer;
+    transition: 0.1s;
+    transition-delay: 0.2s;
+}
+footer button{
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.445);
+    color: rgba(255, 255, 255, 0.445);
+    font-size: x-small;
+    margin-top: 10px;
+}
+footer button:hover{
+    border: 1px solid white;
+    color: white;
+    transform: scale(103%, 103%);
+    transition: 0.1s;
+}
+footer .down p{
+    color: rgba(255, 255, 255, 0.445);
+    font-size: 7.5px;
+    margin-top: 15px;
+    width: max-content;
+}
+footer .down p:hover{
+    color: white;
+}
+.colonnaUno, .colonnaDue, .colonnaTre{
+    display: flex;
+    flex-direction: column;
+}
